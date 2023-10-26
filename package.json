@@ -12,5 +12,10 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11"
-  }
+  },
+  "description": "Assignment 9\r [\"Hosted in webpage\"] (https://fa23wa77beeram.onrender.com)",
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
