@@ -3,12 +3,14 @@ var router = express.Router();
 
 var sum=0;
 var more =0;
+
+
 router.get('/', function(req, res, next) {
   
-  more+=1;
-  sum+=more;
+  more += 1;
+  sum += more;
 
-res.send(`sum is :${sum}`);
+res.send(`sum is: ${sum}`);
 });
 
 module.exports = router;
